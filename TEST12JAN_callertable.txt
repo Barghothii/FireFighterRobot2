@@ -1,0 +1,12 @@
+main
+	pwm_init
+	Initialize
+	ATD_init
+	scan
+		ATD_read
+		turn_right
+		msDelay
+		stop
+		turn_left
+		turn180
+		set_servo_position
